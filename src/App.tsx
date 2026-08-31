@@ -1,3 +1,5 @@
+'use client'
+
 import { useRef, useState } from 'react'
 import { Compass, Info, ShieldCheck } from 'lucide-react'
 import { Hero } from './components/Hero'

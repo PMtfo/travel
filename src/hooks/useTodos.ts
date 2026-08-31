@@ -5,6 +5,7 @@ import type { TodoFilter } from '../types'
 const STORAGE_KEY = 'autumn-trip.todo-state.v1'
 
 function readCompleted(): string[] {
+  if (typeof window === 'undefined') return []
   try {
     const stored = localStorage.getItem(STORAGE_KEY)
     if (!stored) return []
