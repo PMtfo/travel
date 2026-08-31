@@ -1,0 +1,16 @@
+{
+  "project": "十一旅游公开站点",
+  "mode": "full",
+  "current_phase": "done",
+  "started_at": "2026-08-31T00:00:00+08:00",
+  "prd_summary": "制作一个可公开分享、可导出 PNG、含路线时间线和本地持久化待办的旅行手账站点",
+  "prd_path": "docs/prd-travel-journal.md",
+  "checkpoints": ["phase1_done", "phase2_done", "phase4_done", "phase5_done", "phase6_done"],
+  "decisions": {
+    "phase1": "中型纯前端静态站点",
+    "phase2": "React + TypeScript + Vite；无服务端、无个人身份与订单截图",
+    "phase4": "内联 SVG 目的地插画和路线图避免导出跨域问题",
+    "phase5": "类型检查与生产构建通过",
+    "phase6": "项目文档已沉淀；未修改全局 memory 或规则"
+  }
+}

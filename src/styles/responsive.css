@@ -1,0 +1,59 @@
+@media (max-width: 900px) {
+  .hero { min-height: auto; grid-template-columns: 1fr; padding-top: 54px; }
+  .hero__content { max-width: 620px; }
+  .hero__visual { width: min(680px, 92%); margin: 12px auto 28px; }
+  .timeline-grid { grid-template-columns: 1fr; }
+  .day-card__top { grid-template-columns: 46px 1fr 150px; }
+  .todo-list { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .shell { width: min(100% - 24px, 1180px); }
+  .hero { gap: 30px; padding-block: 36px 24px; }
+  .hero h1 { font-size: clamp(64px, 25vw, 94px); }
+  .hero__subtitle { margin-top: 18px; font-size: 19px; }
+  .hero__facts { margin: 22px 0; }
+  .primary-button { width: 100%; }
+  .hero__visual { width: 96%; }
+  .stamp { right: -8px; bottom: -18px; width: 72px; height: 72px; font-size: 11px; }
+  .journal__masthead { grid-template-columns: 1fr auto; }
+  .journal__masthead strong { display: none; }
+  .route-section { margin-bottom: 52px; }
+  .section-heading { align-items: start; flex-direction: column; gap: 12px; }
+  .section-note { text-align: left; }
+  .route-legend { display: none; }
+  .route-map-wrap { border-radius: 14px; }
+  .route-map { min-width: 670px; transform: translateX(-150px); }
+  .mobile-route { display: flex; overflow-x: auto; gap: 0; padding-top: 16px; scrollbar-width: none; }
+  .mobile-route::-webkit-scrollbar { display: none; }
+  .mobile-route__stop { position: relative; flex: 0 0 auto; display: grid; min-width: 100px; padding-right: 12px; }
+  .mobile-route__stop strong { font-family: var(--serif); font-size: 13px; }
+  .mobile-route__stop small { margin-top: 2px; color: var(--muted); font-size: 10px; }
+  .mobile-route__stop span { display: flex; align-items: center; gap: 3px; margin-top: 8px; color: var(--cinnabar); font-size: 9px; }
+  .timeline-section { margin-bottom: 52px; }
+  .date-nav { top: 7px; margin-inline: -2px; }
+  .day-card { padding: 18px; scroll-margin-top: 94px; }
+  .day-card__top { grid-template-columns: 40px 1fr 90px; gap: 10px; }
+  .day-badge { width: 40px; height: 50px; }
+  .day-badge b { font-size: 19px; }
+  .day-card__heading h3 { font-size: 21px; }
+  .day-card__heading span { display: none; }
+  .schedule-row { grid-template-columns: 32px 1fr; }
+  .status { grid-column: 2; justify-self: start; margin-top: -5px; }
+  .todo-header { grid-template-columns: 1fr 78px; }
+  .progress-ring { width: 76px; height: 76px; }
+  .progress-ring::before { width: 59px; height: 59px; }
+  .progress-ring strong { font-size: 17px; }
+  .todo-toolbar { align-items: end; }
+  .segmented-control button { padding-inline: 9px; }
+  .todo-list li { grid-template-columns: 34px 1fr; }
+  .todo-meta { grid-column: 2; justify-items: start; grid-auto-flow: column; justify-content: start; }
+  .footer { align-items: start; flex-direction: column; gap: 7px; }
+  .export-notice { width: calc(100% - 32px); justify-content: center; text-align: center; }
+}
+
+@media print {
+  body::before, .no-export { display: none !important; }
+  .shell { width: 100%; }
+  .paper-card, .day-card { box-shadow: none; break-inside: avoid; }
+}

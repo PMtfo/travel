@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "selected_scheme": "innovative",
+  "scheme_name": "Map-first Travel Journal",
+  "theme_source": "realtime_search",
+  "source_url": "https://www.polarsteps.com/news/polarsteps-launches-summer-2026-release-new-tools-for-planning-privacy-and-sharing",
+  "colors": {
+    "primary": "#1f6f5f",
+    "background": "#f6f1e7",
+    "foreground": "#1f2a24",
+    "accent": "#d96c3b"
+  },
+  "component_lib": "custom React + lucide-react",
+  "component_lib_version": "lucide-react@1.37.0",
+  "chart_lib": "custom SVG",
+  "extra_deps": ["html-to-image@1.11.13"],
+  "installed_at": "2026-08-30T19:26:18Z",
+  "tailwind_version": null,
+  "dark_mode": false,
+  "project_type": "landing"
+}
