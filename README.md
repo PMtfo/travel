@@ -46,10 +46,8 @@ npm run preview
 - 主题颜色：`src/styles/base.css` 的 `:root`
 - Hero 主视觉：`public/travel-hero.png`
 
-## 公开部署
+## 站点托管
 
-站点通过 GitHub Pages 的公开工作流部署，访问地址：
+站点通过 Codex 原生 Sites 托管，代码仓库为私有 `travel`，当前站点源码位于 `autumn-travel-journal-2026` 分支。
 
-<https://pmtfo.github.io/autumn-travel-journal-2026/>
-
-仓库为公开仓库，运行时不需要登录或后端服务。Todo 勾选只保存在访问者自己的浏览器，不会上传；公开页面仍会展示本手账中的日期、城市、交通与住宿安排。
+运行时不需要登录或后端服务。Todo 勾选只保存在访问者自己的浏览器，不会上传；页面仍会展示本手账中的日期、城市、交通与住宿安排。
